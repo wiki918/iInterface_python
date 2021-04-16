@@ -1,7 +1,9 @@
-import sys
+import sys,os
+base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(base_path)
 
 import allure
-sys.path.append(sys.path[0]+'\..')
+# sys.path.append(sys.path[0]+'\..')
 
 from unittest import TestCase
 from library.httpclient import HttpClient
