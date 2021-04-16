@@ -20,7 +20,6 @@ dependency-reduced-pom.xml
 ~$*.pptx
 .git/
 app-test.log.*
-*.txt
 *.class
 report.html
 *.pyc
