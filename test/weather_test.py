@@ -1,4 +1,7 @@
+import sys
+
 import allure
+sys.path.append(sys.path[0]+'\..')
 
 from unittest import TestCase
 from library.httpclient import HttpClient
